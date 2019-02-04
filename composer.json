@@ -6,7 +6,7 @@
         "vue-route"
     ],
     "homepage": "https://github.com/vmitchell85/vue-route",
-    "license": "MIT License (MIT)",
+    "license": "MIT",
     "type": "library",
     "authors": [
         {
