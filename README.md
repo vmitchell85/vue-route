@@ -1,5 +1,8 @@
 # Laravel Vue.js Route
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/vmitchell85/vue-route.svg?style=flat-square)](https://packagist.org/packages/vmitchell85/vue-route)
+[![Total Downloads](https://img.shields.io/packagist/dt/vmitchell85/vue-route.svg?style=flat-square)](https://packagist.org/packages/vmitchell85/vue-route)
+
 Laravel Vue.js Route is a macro added onto the Route class to make loading a Vue.js component as the whole view simple.
 
 Inspired by `Route::view()`, which returns a blade view bypassing a controller, The `Route::vue()` function will, by default, load a specified Vue.js component into the default layout's `content` section.
