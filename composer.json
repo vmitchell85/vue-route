@@ -1,0 +1,37 @@
+{
+    "name": "vmitchell85/vue-route",
+    "description": "Adds a easy route macro to display a Vue.js component",
+    "keywords": [
+        "vmitchell85",
+        "vue-route"
+    ],
+    "homepage": "https://github.com/vmitchell85/vue-route",
+    "license": "MIT License (MIT)",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Vincent Mitchell",
+            "email": "vincent.mitchell@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Vmitchell85\\VueRoute\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vmitchell85\\VueRoute\\VueRouteServiceProvider"
+            ]
+        }
+    }
+}
